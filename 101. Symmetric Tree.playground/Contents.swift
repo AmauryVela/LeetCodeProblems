@@ -46,10 +46,7 @@ func isSymmetric(_ root: TreeNode?) -> Bool {
 func isSymetric(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
     if p == nil && q == nil {
         return true
-    }
-    else if p?.left?.val != q?.right?.val {
-        return false
-    } else if p?.right?.val != q?.left?.val {
+    } else if p?.left?.val != q?.right?.val || p?.right?.val != q?.left?.val {
         return false
     }
     return isSymetric(p?.left, q?.right) && isSymetric(p?.right, q?.left)
