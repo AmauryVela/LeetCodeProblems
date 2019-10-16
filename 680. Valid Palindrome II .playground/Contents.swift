@@ -42,11 +42,11 @@ func validPalindrome(_ s: String) -> Bool {
 
 }
 
-//validPalindrome(str)
+validPalindrome(str)
 //validPalindrome(testCase)
 //validPalindrome(testCase2)
 //validPalindrome(ultraCase)
-//validPalindrome(pleaseStorCase)
+validPalindrome(pleaseStorCase)
 //validPalindrome(quitYourJobTestCase)
 
 func validPalindromeOptimized(_ s: String) -> Bool{
@@ -82,8 +82,8 @@ func palindromeHelper(_ s: Array<Character>, left: Int, right: Int) -> Bool{
 //validPalindromeOptimized(testCase)
 validPalindromeOptimized(testCase2)
 //validPalindromeOptimized(ultraCase)
-//validPalindromeOptimized(pleaseStorCase)
-//validPalindromeOptimized(quitYourJobTestCase)
+validPalindromeOptimized(pleaseStorCase)
+validPalindromeOptimized(quitYourJobTestCase)
 
 
 func findSummation(from input: [Int], number: Int) -> Bool {
